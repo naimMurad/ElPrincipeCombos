@@ -17,7 +17,6 @@ beforeEach(() => {
     });
 });
 
-
 describe('Realizar una Venta de Mostrador', () => {
        
     it('Seleccionar Ventas y realizar una venta', () => {
