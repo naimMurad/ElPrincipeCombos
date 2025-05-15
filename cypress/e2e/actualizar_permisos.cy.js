@@ -19,7 +19,7 @@ beforeEach(() => {
 
 it('Debe activar los permisos necesarios', () => {
     cy.wait(1000); // Esperar a que la página cargue completamente antes de interactuar con los elementos
-    cy.contains('span', 'Operador').parent().parent().find('button').click();
+    cy.contains('span', 'Cajero').parent().parent().find('button').click();
     cy.wait(1000); // Esperar a que la página cargue completamente antes de interactuar con los elementos
     
     cy.get('.q-expansion-item.q-expansion-item--collapsed')
